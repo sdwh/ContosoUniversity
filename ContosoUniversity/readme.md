@@ -35,3 +35,14 @@ You can also write a Seed method that Entity Framework automatically calls after
 in order to populate it with test data.
 
 The default behavior is to create a database only if it doesn't exist 
+
+## Set up EF 6 to use LocalDB
+
+1. 編輯 Web.config > connectionStrings
+
+If you want to create the database in your App_Data folder, 
+you could add AttachDBFilename=|DataDirectory|\ContosoUniversity1.mdf to the connection string.
+
+https://docs.microsoft.com/zh-tw/ef/ef6/modeling/code-first/workflows/new-database
+
+## 
