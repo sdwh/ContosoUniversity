@@ -43,6 +43,11 @@ The default behavior is to create a database only if it doesn't exist
 If you want to create the database in your App_Data folder, 
 you could add AttachDBFilename=|DataDirectory|\ContosoUniversity1.mdf to the connection string.
 
+The ContosoUniversity1.mdf and .ldf database files are in the %USERPROFILE% folder.
+
 https://docs.microsoft.com/zh-tw/ef/ef6/modeling/code-first/workflows/new-database
 
-## 
+## Create controller and views
+
+1. Add : MVC 5 Controller with views, using Entity Framework
+
