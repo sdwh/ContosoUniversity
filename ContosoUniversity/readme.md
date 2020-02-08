@@ -51,3 +51,15 @@ https://docs.microsoft.com/zh-tw/ef/ef6/modeling/code-first/workflows/new-databa
 
 1. Add : MVC 5 Controller with views, using Entity Framework
 
+# Implement CRUD Functionality with the Entity Framework in ASP.NET MVC
+
+- Create a Details page
+- Update the Create page
+- Update the HttpPost Edit method
+- Update the Delete page
+- Close database connections
+- Handle transactions
+
+## Create a Details page
+
+1. Edit : Views\Student\Details.cshtml
