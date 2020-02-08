@@ -63,3 +63,12 @@ https://docs.microsoft.com/zh-tw/ef/ef6/modeling/code-first/workflows/new-databa
 ## Create a Details page
 
 1. Edit : Views\Student\Details.cshtml
+
+
+## Update the Create page
+
+1. Edit : Controllers\StudentController.cs
+
+An alternative way to prevent overposting that is preferred by many developers 
+is to use view models rather than entity classes with model binding. 
+Include only the properties you want to update in the view model
