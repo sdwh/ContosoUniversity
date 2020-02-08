@@ -12,4 +12,12 @@ if it's named <navigation property name><primary key property name>
 Foreign key properties can also be named the same simply <primary key property name> 
 (for example, CourseID since the Course entity's primary key is CourseID).
 
-## 
+## Create the database context
+
+1. 建立 DAL\SchooContext.cs
+
+This code creates a DbSet property for each entity set. 
+In Entity Framework terminology, an entity set typically corresponds to a database table, 
+and an entity corresponds to a row in the table.
+
+##
