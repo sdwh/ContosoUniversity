@@ -99,3 +99,12 @@ you can set the entity to **EntityState.Unchanged** and set individual fields to
 1. Edit: Controllers\StudentController.cs (Index Action)
 2. Edit: Views\Student\Index.cshtml (Add Search From)
 
+## Add paging
+
+1. Install-Package : PagedList.Mvc
+2. Edit: Controllers\StudentController.cs (Index Action)
+3. Edit: Views\Student\Index.cshtml (Add paging links to the Student index view)
+
+The **null-coalescing operator** defines a default value for a nullable type; 
+the expression (page ?? 1) means return the value of page if it has a value, or return 1 if page is null.
+
