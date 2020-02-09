@@ -92,4 +92,10 @@ you can set the entity to **EntityState.Unchanged** and set individual fields to
 ## Add column sort links
 
 1. Edit: Controllers\StudentController.cs (Index Action)
-2. Edit: Views\Student\Index.cshtml
+2. Edit: Views\Student\Index.cshtml (Add table header sort hyperlink)
+
+## Add a Search box
+
+1. Edit: Controllers\StudentController.cs (Index Action)
+2. Edit: Views\Student\Index.cshtml (Add Search From)
+
