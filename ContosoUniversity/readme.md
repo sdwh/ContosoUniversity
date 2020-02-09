@@ -67,15 +67,15 @@ https://docs.microsoft.com/zh-tw/ef/ef6/modeling/code-first/workflows/new-databa
 
 ## Update the Create page
 
-1. Edit : Controllers\StudentController.cs
+1. Edit : Controllers\StudentController.cs (Create Action)
 
 An alternative way to prevent overposting that is preferred by many developers 
 is to use view models rather than entity classes with model binding. 
 Include only the properties you want to update in the view model
 
-## Update HttpPost Edit method 
+## Update HttpPost Edit method
 
-1. Edit : Controllers\StudentConteroller.cs
+1. Edit : Controllers\StudentConteroller.cs (Edit Action)
 
 All columns of the database row are updated, 
 including those that the user didn't change. 
@@ -84,5 +84,12 @@ you can set the entity to **EntityState.Unchanged** and set individual fields to
 
 ## Update the Delete page
 
-1. Edit : Controllers\StudentController.cs
+1. Edit : Controllers\StudentController.cs (Delete Action)
 
+
+# Add sorting, filtering, and paging with the Entity Framework in an ASP.NET MVC application
+
+## Add column sort links
+
+1. Edit: Controllers\StudentController.cs (Index Action)
+2. Edit: Views\Student\Index.cshtml
