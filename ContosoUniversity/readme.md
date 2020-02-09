@@ -113,3 +113,28 @@ the expression (page ?? 1) means return the value of page if it has a value, or 
 1. Create ViewModel : ViewModels\EnrollmentDateGroup.cs
 2. Edit : Controllers\HomeController.cs (About Action)
 3. Edit : Views\Home\About.cshtml
+
+# Use connection resiliency and command interception with Entity Framework in an ASP.NET MVC app
+
+- Enable connection resiliency
+- Enable command interception
+- Test the new configuration
+
+## Enable connection resiliency
+
+1. Add : DAL\SchoolConfiguration.cs
+2. Edit: Controllers\StudentController.cs (catch RetryLimitExceededException)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
