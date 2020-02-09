@@ -72,3 +72,14 @@ https://docs.microsoft.com/zh-tw/ef/ef6/modeling/code-first/workflows/new-databa
 An alternative way to prevent overposting that is preferred by many developers 
 is to use view models rather than entity classes with model binding. 
 Include only the properties you want to update in the view model
+
+## Update HttpPost Edit method
+
+1. Edit : Controllers\StudentConteroller.cs
+
+All columns of the database row are updated, 
+including those that the user didn't change. 
+If you only want individual fields to be updated in the database, 
+you can set the entity to **EntityState.Unchanged** and set individual fields to EntityState.Modified.
+
+## 
