@@ -125,7 +125,24 @@ the expression (page ?? 1) means return the value of page if it has a value, or 
 1. Add : DAL\SchoolConfiguration.cs
 2. Edit: Controllers\StudentController.cs (catch RetryLimitExceededException)
 
+## Enable command interception
 
+To test the connection resiliency feature,
+you need a way to intercept queries that Entity Framework sends to SQL Server and 
+replace the SQL Server response with an exception type that is typically transient.
+
+In this section of the tutorial you'll learn how to use the Entity Framework's interception feature directly,
+both for logging and for simulating transient errors.
+
+1. Create a logging interface and class
+2. Add : Logging\ILogger.cs
+3. Add : Logging\Logger.cs
+
+Create interceptor classes
+
+4. Add : DAL\SchoolInterceptorLogging.cs
+5. Add : DAL\SchoolInterceptorTransientErrors.cs
+6. Edit: Global.asax
 
 
 
