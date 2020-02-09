@@ -108,3 +108,8 @@ you can set the entity to **EntityState.Unchanged** and set individual fields to
 The **null-coalescing operator** defines a default value for a nullable type; 
 the expression (page ?? 1) means return the value of page if it has a value, or return 1 if page is null.
 
+## Create an About page
+
+1. Create ViewModel : ViewModels\EnrollmentDateGroup.cs
+2. Edit : Controllers\HomeController.cs (About Action)
+3. Edit : Views\Home\About.cshtml

@@ -22,3 +22,14 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.HeadingDecoration {
+    padding: 1rem;
+    background-color: #1CA68A;
+    color: #fff;
+    display: inline-block;
+}
+
+img-rounded{
+    border-radius: 1rem;
+}
